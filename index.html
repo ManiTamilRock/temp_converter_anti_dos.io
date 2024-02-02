@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature convertor - A.S.MANIKANDAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Temperature Converter </h1>
+        <div class="temp-container">
+            <label for="Celsius">Celsius</label>
+            <input 
+            onchange ="computeTemp(event)"
+            type="number" 
+            name="Celsius" 
+            id="Celsius" 
+            class="Celsius" 
+            placeholder="Enter Temperature in Celsius"/>    
+        </div>
+        <div class="temp-container">
+            <label for="fahre">Fahrenheit</label>
+            <input 
+            onchange="computeTemp(event)"
+            type="number" 
+            name="Fahrenheit" 
+            id="Fahrenheit" 
+            class="Fahrenheit" 
+            placeholder="Enter Temperature in Fahrenheit"/>    
+        </div>
+        
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
